@@ -63,7 +63,7 @@ script = ExtResource( 11 )
 position = Vector2( 0, 37 )
 frames = SubResource( 1 )
 animation = "running_up"
-frame = 5
+frame = 3
 playing = true
 
 [node name="Label" type="Label" parent="."]
