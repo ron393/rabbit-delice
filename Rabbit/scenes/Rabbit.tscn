@@ -21,12 +21,12 @@
 [ext_resource path="res://pictures/Rabbit/Running_down/run_down_4.png" type="Texture" id=19]
 [ext_resource path="res://pictures/Rabbit/Running_down/run_down_2.png" type="Texture" id=20]
 [ext_resource path="res://pictures/Rabbit/Running_down/run_down_5.png" type="Texture" id=21]
-[ext_resource path="res://Pixelorama/Pixelart Rabbits/run_up_4.png" type="Texture" id=22]
-[ext_resource path="res://Pixelorama/Pixelart Rabbits/run_up_2.png" type="Texture" id=23]
-[ext_resource path="res://Pixelorama/Pixelart Rabbits/run_up_5.png" type="Texture" id=24]
-[ext_resource path="res://Pixelorama/Pixelart Rabbits/run_up_1.png" type="Texture" id=25]
-[ext_resource path="res://Pixelorama/Pixelart Rabbits/run_up_6.png" type="Texture" id=26]
-[ext_resource path="res://Pixelorama/Pixelart Rabbits/run_up_3.png" type="Texture" id=27]
+[ext_resource path="res://pictures/Rabbit/Running_up/run_up_4.png" type="Texture" id=22]
+[ext_resource path="res://pictures/Rabbit/Running_up/run_up_2.png" type="Texture" id=23]
+[ext_resource path="res://pictures/Rabbit/Running_up/run_up_5.png" type="Texture" id=24]
+[ext_resource path="res://pictures/Rabbit/Running_up/run_up_1.png" type="Texture" id=25]
+[ext_resource path="res://pictures/Rabbit/Running_up/run_up_6.png" type="Texture" id=26]
+[ext_resource path="res://pictures/Rabbit/Running_up/run_up_3.png" type="Texture" id=27]
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
@@ -63,6 +63,7 @@ script = ExtResource( 11 )
 position = Vector2( 0, 37 )
 frames = SubResource( 1 )
 animation = "running_up"
+frame = 5
 playing = true
 
 [node name="Label" type="Label" parent="."]
